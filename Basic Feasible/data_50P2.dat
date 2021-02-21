@@ -1,0 +1,89 @@
+data;
+param day_end := 10;
+param min_rental_duration := 3;
+param num_customers := 10;
+param num_vans := 2;
+param num_trucks := 1;
+
+param van_capacity := 10;
+param truck_capacity := 25;
+
+param van_rental_cost := 12;
+param truck_rental_cost := 15;
+
+param mileage_cost := 0.25;
+
+param van_speed := 30;
+param truck_speed := 20;
+
+param service_time := 10;
+
+param due_times :=
+			1 390
+			2 270
+			3 540
+			4 180
+			5 240
+			6 360
+			7 480
+			8 510
+			9 210
+			10 390;
+
+
+param distance :=
+			0	1	44
+			0	2	43
+			0	3	47
+			0	4	44
+			0	5	40
+			0	6	31
+			0	7	43
+			0	8	27
+			0	9	21
+			0	10	25
+			1	2	7
+			1	3	19
+			1	4	10
+			1	5	26
+			1	6	21
+			1	7	25
+			1	8	33
+			1	9	25
+			1	10	19
+			2	3	12
+			2	4	17
+			2	5	19
+			2	6	28
+			2	7	18
+			2	8	40
+			2	9	32
+			2	10	26
+			3	4	29
+			3	5	9
+			3	6	40
+			3	7	6
+			3	8	52
+			3	9	44
+			3	10	38
+			4	5	36
+			4	6	13
+			4	7	35
+			4	8	23
+			4	9	23
+			4	10	19
+			5	6	47
+			5	7	5
+			5	8	59
+			5	9	51
+			5	10	45
+			6	7	46
+			6	8	12
+			6	9	10
+			6	10	6
+			7	8	58
+			7	9	50
+			7	10	44
+			8	9	8
+			8	10	14
+			9	10	6;
