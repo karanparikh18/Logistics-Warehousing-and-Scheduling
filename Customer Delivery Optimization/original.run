@@ -1,0 +1,14 @@
+reset;
+
+model original.mod;
+#data validation.dat;
+#data data_50.dat;
+#data data_100.dat;
+data data_50_OPS1.dat;
+	
+option solver cplex;
+solve;
+display TotalCost;
+display rental_start, rental_end;
+display traversed;
+display arrival_time;
