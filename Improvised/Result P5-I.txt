@@ -1,0 +1,39 @@
+CPLEX 12.10.0.0: optimal integer solution; objective 105
+935 MIP simplex iterations
+183 branch-and-bound nodes
+TotalCost = 105
+
+: rental_start rental_end    :=
+1       0           6
+2       0           0
+;
+
+traversed [*,*,1]
+:   0   1   2   3   4    :=
+0   0   1   0   0   0
+1   0   0   0   0   1
+2   1   0   0   0   0
+3   0   0   1   0   0
+4   0   0   0   1   0
+
+ [*,*,2]
+:   0   1   2   3   4    :=
+0   1   0   0   0   0
+1   0   0   0   0   0
+2   0   0   0   0   0
+3   0   0   0   0   0
+4   0   0   0   0   0
+;
+
+arrival_time :=
+0 1   360
+0 2     0
+1 1    94
+1 2     0
+2 1   230
+2 2     0
+3 1   194
+3 2     0
+4 1   140
+4 2     0
+;
